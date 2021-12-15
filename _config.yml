@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Amit Chaudhary
-email: meamitkc@gmail.com
+title: Name and Second Name
+email: sample@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a Machine Learning Engineer applying research to products.
   I explain machine learning concepts using diagrams, animations and intuition
-url: "https://amitness.com"
-twitter_username: amitness
-github_username: amitness
+url: "https://hrishikeshh.com"
+twitter_username: hrishikeshh
+github_username: hrishikeshh
 minimal_mistakes_skin: default
 search: true
 
 twitter:
-  username: "amitness"
+  username: "hrishikeshh"
 
 # Build settings
 markdown: kramdown
@@ -36,7 +36,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:year/:month/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Kathmandu
+timezone: India/New Delhi
 
 include:
   - _pages
@@ -63,9 +63,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Amit Chaudhary"
+  name   : "Hrishikesh Singh"
   avatar : "/images/bio-photo.jpg"
-  bio    : "Research && Engineering"
+  bio    : "Testing the sidebar"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
