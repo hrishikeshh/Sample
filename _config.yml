@@ -101,7 +101,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts/"
       type: posts
     values:
       layout: single
@@ -121,7 +121,17 @@ defaults:
       path: "images/"
     values:
       image: true
-
+  # New section
+  - scope:
+      path: "_newsection"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
