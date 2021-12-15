@@ -6,12 +6,12 @@ permalink: /back-translation/
 categories:
   - nlp
   - data augmentation
+classes: wide
 excerpt: Learn how to use machine translation models in Hugging Face Transformers for data augmentation
 header:
   og_image: /images/back-translation-marianmt.png
   teaser: /images/back-translation-marianmt.png
-classes: wide
----
 
+---
 
 Hugging Face recently released [1008 translation models](https://huggingface.co/models?search=Helsinki-NLP%2Fopus-mt) for almost 140 languages on their model hub. 
